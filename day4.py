@@ -51,10 +51,19 @@ print(some.split("coding"))--->['python is good ', ' language']
 #4.replace()--->this is used to replace old str with new string
 #                   syntax--->variable_name.replace("old str","new str")
 #print(some.replace("Python","java"))---->java Is Good Coding Language
+'''
 if "python" in some:
     print("yes")
 else:
-    print("no")
+    print("no")'''
+
+#task of today
+
+user_input=input("Enter a letter: ")
+if user_input in "AEIOUaeiou":
+    print(f'{user_input} is vowel')
+else:
+    print(f'{user_input} is consonent')   
 
 
 
